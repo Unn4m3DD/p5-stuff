@@ -1,4 +1,4 @@
 {
   "setup": "",
-  "run": "&& http-server . -l $PORT"
+  "run": "&& serve . -l $PORT"
 }
