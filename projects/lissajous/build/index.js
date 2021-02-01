@@ -56,6 +56,7 @@ function draw() {
     t += time_step;
     if (t > Math.PI * 2) {
         noLoop();
+        background(0);
         for (let i = 1; i < width / box_size - 1; i++) {
             stroke(255, 255, 255);
             ellipse(i * box_size + box_size / 2, box_size / 2, circle_radius);
@@ -64,7 +65,6 @@ function draw() {
             stroke(255, 255, 255);
             ellipse(box_size / 2, i * box_size + box_size / 2, circle_radius);
         }
-        background(0);
         for (let i = 1; i < width / box_size - 1; i++) {
             for (let j = 1; j < height / box_size - 1; j++) {
                 points[i][j].push({
