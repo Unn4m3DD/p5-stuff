@@ -1,4 +1,6 @@
 {
   "setup": "",
-  "run": "&& http-server -p $PORT ."
+  "run": "&& http-server -p $PORT .",
+  "title": "p5.js demos",
+  "subtitle": "Random scenes using p5.js"
 }
