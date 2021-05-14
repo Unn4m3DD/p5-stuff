@@ -2,5 +2,6 @@
   "setup": "",
   "run": "&& http-server -p $PORT .",
   "title": "p5.js demos",
-  "subtitle": "Random scenes using p5.js"
+  "subtitle": "Random scenes using p5.js",
+  "image": "https://raw.githubusercontent.com/Unn4m3DD/p5-stuff/master/demo.gif"
 }
